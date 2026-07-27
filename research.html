@@ -6,7 +6,7 @@
 <title>Research — Power Quality &amp; Resilience Lab</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=11">
+<link rel="stylesheet" href="assets/styles.css?v=12">
 </head>
 <body>
 <div class="draft-flag">DRAFT REVAMP · local preview · content preserved from pqrlabmoses.wordpress.com</div>
@@ -124,7 +124,18 @@
 
     <hr class="divider">
     <p class="section-title">Support &amp; Acknowledgement</p>
-    <p class="sub" style="margin-bottom:0;">Moses Lab sincerely acknowledges the support from the many organizations providing financial and equipment contributions toward our research efforts — including the National Science Foundation, Oklahoma Gas &amp; Electric, Spiers New Technology, Siemens and others.</p>
+    <p class="sub" style="margin-bottom:24px;">The Moses Lab gratefully acknowledges the sponsors and partners whose financial and equipment support makes our research possible.</p>
+    <div class="sponsor-carousel" tabindex="0" aria-label="Research sponsors and partners">
+      <div class="sponsor-track" id="sponsor-track">
+        <div class="sponsor"><img src="assets/img/sponsor/nsf.png" alt="National Science Foundation" loading="lazy"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/oge.png" alt="Oklahoma Gas &amp; Electric" loading="lazy"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/ocast.png" alt="Oklahoma Center for the Advancement of Science &amp; Technology (OCAST)" loading="lazy"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/ompa.jpg" alt="Oklahoma Municipal Power Authority" loading="lazy"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/Siemens-Logo.png" alt="Siemens" loading="lazy"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/GE.png" alt="General Electric" loading="lazy"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/etap.png" alt="ETAP" loading="lazy"></div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -150,6 +161,19 @@
     </div>
   </div>
 </footer>
-<script src="assets/app.js?v=11"></script>
+<script src="assets/app.js?v=12"></script>
+<script>
+/* Duplicate the sponsor logos once so the marquee loops seamlessly (the CSS
+   animation scrolls the track by -50%, i.e. exactly one full set). */
+(function () {
+  var track = document.getElementById('sponsor-track');
+  if (!track) return;
+  Array.prototype.slice.call(track.children).forEach(function (node) {
+    var clone = node.cloneNode(true);
+    clone.setAttribute('aria-hidden', 'true');
+    track.appendChild(clone);
+  });
+})();
+</script>
 </body>
 </html>

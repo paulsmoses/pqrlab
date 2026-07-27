@@ -490,6 +490,28 @@ img { max-width: 100%; display: block; }
 .area h4 { margin: 0; font-size: 15.5px; font-weight: 700; line-height: 1.32; }
 .area .bio { margin: 0; font-size: 13px; }
 
+/* Sponsor logo carousel (auto-scrolling marquee; ~5 visible at a time) */
+.sponsor-carousel {
+  position: relative; overflow: hidden; padding: 4px 0;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+}
+.sponsor-track { display: flex; gap: 18px; width: max-content; animation: sponsor-scroll 34s linear infinite; }
+.sponsor-carousel:hover .sponsor-track { animation-play-state: paused; }
+.sponsor {
+  flex: 0 0 auto; width: 200px; height: 100px;
+  background: #fff; border: 1px solid var(--line); border-radius: 12px;
+  box-shadow: var(--shadow); display: grid; place-items: center; padding: 18px 24px;
+}
+.sponsor img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
+@keyframes sponsor-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.sponsor-carousel:focus-within .sponsor-track { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  .sponsor-track { animation: none; }
+  .sponsor-carousel { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
+}
+@media (max-width: 620px) { .sponsor { width: 158px; height: 88px; padding: 14px 18px; } }
+
 .facts { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; }
 @media (max-width: 720px) { .facts { grid-template-columns: repeat(2,1fr); } }
 .fact {
