@@ -465,18 +465,30 @@ img { max-width: 100%; display: block; }
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 22px;
+  overflow: hidden;
   box-shadow: var(--shadow);
   transition: transform .14s, box-shadow .14s;
+  display: flex; flex-direction: column;
 }
 .area:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.area-img {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  background: linear-gradient(135deg, #dbe4f0, #c4d2e6);
+}
+.area-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .area .num {
-  width: 38px; height: 38px; border-radius: 10px;
+  position: absolute; top: 12px; left: 12px;
+  width: 34px; height: 34px; border-radius: 9px;
   display: grid; place-items: center;
   background: linear-gradient(135deg, var(--blue), var(--blue-bright));
-  color: #fff; font-weight: 800; margin-bottom: 14px;
+  color: #fff; font-weight: 800; font-size: 15px;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 12px rgba(11,31,58,0.35);
 }
-.area h4 { margin: 0; font-size: 16px; font-weight: 700; }
+.area-body { padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.area h4 { margin: 0; font-size: 15.5px; font-weight: 700; line-height: 1.32; }
+.area .bio { margin: 0; font-size: 13px; }
 
 .facts { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; }
 @media (max-width: 720px) { .facts { grid-template-columns: repeat(2,1fr); } }

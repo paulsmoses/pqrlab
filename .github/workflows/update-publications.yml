@@ -1,0 +1,36 @@
+name: Update publications
+
+# Refreshes assets/publications.json from ORCID + Semantic Scholar once a week.
+# Also runnable on demand from the Actions tab (Run workflow).
+on:
+  schedule:
+    - cron: "0 6 * * 0"   # every Sunday, 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch & merge publications
+        run: python3 scripts/fetch_publications.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- assets/publications.json; then
+            echo "No publication changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/publications.json
+            git commit -m "Auto-update publications ($(date -u +%Y-%m-%d))"
+            git push
+          fi
