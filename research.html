@@ -6,7 +6,7 @@
 <title>Research — Power Quality &amp; Resilience Lab</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=12">
+<link rel="stylesheet" href="assets/styles.css?v=15">
 </head>
 <body>
 <div class="draft-flag">DRAFT REVAMP · local preview · content preserved from pqrlabmoses.wordpress.com</div>
@@ -125,17 +125,18 @@
     <hr class="divider">
     <p class="section-title">Support &amp; Acknowledgement</p>
     <p class="sub" style="margin-bottom:24px;">The Moses Lab gratefully acknowledges the sponsors and partners whose financial and equipment support makes our research possible.</p>
-    <div class="sponsor-carousel" tabindex="0" aria-label="Research sponsors and partners">
+    <div class="sponsor-carousel" id="sponsor-carousel" tabindex="0" aria-label="Research sponsors and partners">
       <div class="sponsor-track" id="sponsor-track">
-        <div class="sponsor"><img src="assets/img/sponsor/nsf.png" alt="National Science Foundation" loading="lazy"></div>
-        <div class="sponsor"><img src="assets/img/sponsor/oge.png" alt="Oklahoma Gas &amp; Electric" loading="lazy"></div>
-        <div class="sponsor"><img src="assets/img/sponsor/ocast.png" alt="Oklahoma Center for the Advancement of Science &amp; Technology (OCAST)" loading="lazy"></div>
-        <div class="sponsor"><img src="assets/img/sponsor/ompa.jpg" alt="Oklahoma Municipal Power Authority" loading="lazy"></div>
-        <div class="sponsor"><img src="assets/img/sponsor/Siemens-Logo.png" alt="Siemens" loading="lazy"></div>
-        <div class="sponsor"><img src="assets/img/sponsor/GE.png" alt="General Electric" loading="lazy"></div>
-        <div class="sponsor"><img src="assets/img/sponsor/etap.png" alt="ETAP" loading="lazy"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/nsf.png" alt="National Science Foundation"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/oge.png" alt="Oklahoma Gas &amp; Electric"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/ocast.png" alt="Oklahoma Center for the Advancement of Science &amp; Technology (OCAST)"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/ompa.jpg" alt="Oklahoma Municipal Power Authority"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/Siemens-Logo.png" alt="Siemens"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/GE.png" alt="General Electric"></div>
+        <div class="sponsor"><img src="assets/img/sponsor/etap.png" alt="ETAP"></div>
       </div>
     </div>
+    <div class="sponsor-scrollbar" id="sponsor-scrollbar"><div class="sponsor-scrollbar-thumb" id="sponsor-scrollbar-thumb"></div></div>
   </div>
 </section>
 
@@ -161,17 +162,54 @@
     </div>
   </div>
 </footer>
-<script src="assets/app.js?v=12"></script>
+<script src="assets/app.js?v=15"></script>
 <script>
-/* Duplicate the sponsor logos once so the marquee loops seamlessly (the CSS
-   animation scrolls the track by -50%, i.e. exactly one full set). */
+/* Custom mini scrollbar for the sponsor strip (native overlay scrollbars
+   auto-hide, so we draw and drive our own visible one). */
 (function () {
-  var track = document.getElementById('sponsor-track');
-  if (!track) return;
-  Array.prototype.slice.call(track.children).forEach(function (node) {
-    var clone = node.cloneNode(true);
-    clone.setAttribute('aria-hidden', 'true');
-    track.appendChild(clone);
+  var car = document.getElementById('sponsor-carousel');
+  var bar = document.getElementById('sponsor-scrollbar');
+  var thumb = document.getElementById('sponsor-scrollbar-thumb');
+  if (!car || !bar || !thumb) return;
+
+  function maxScroll() { return car.scrollWidth - car.clientWidth; }
+  function trackSpace(tw) { return bar.clientWidth - tw; }
+
+  function update() {
+    var ratio = car.clientWidth / car.scrollWidth;
+    if (ratio >= 1) { bar.style.display = 'none'; return; }
+    bar.style.display = '';
+    var tw = Math.max(40, bar.clientWidth * ratio);
+    thumb.style.width = tw + 'px';
+    var ms = maxScroll();
+    thumb.style.left = (ms > 0 ? (car.scrollLeft / ms) * trackSpace(tw) : 0) + 'px';
+  }
+
+  car.addEventListener('scroll', update);
+  window.addEventListener('resize', update);
+  window.addEventListener('load', update);
+  [200, 600, 1200].forEach(function (t) { setTimeout(update, t); });
+
+  var dragging = false, startX = 0, startLeft = 0;
+  thumb.addEventListener('pointerdown', function (e) {
+    dragging = true; startX = e.clientX; startLeft = parseFloat(thumb.style.left) || 0;
+    thumb.setPointerCapture(e.pointerId); e.preventDefault();
+  });
+  thumb.addEventListener('pointermove', function (e) {
+    if (!dragging) return;
+    var space = trackSpace(thumb.offsetWidth);
+    var nl = Math.min(space, Math.max(0, startLeft + (e.clientX - startX)));
+    car.scrollLeft = space > 0 ? (nl / space) * maxScroll() : 0;
+  });
+  function endDrag() { dragging = false; }
+  thumb.addEventListener('pointerup', endDrag);
+  thumb.addEventListener('pointercancel', endDrag);
+
+  bar.addEventListener('pointerdown', function (e) {
+    if (e.target === thumb) return;
+    var tw = thumb.offsetWidth, space = trackSpace(tw);
+    var pos = Math.min(space, Math.max(0, e.clientX - bar.getBoundingClientRect().left - tw / 2));
+    car.scrollLeft = space > 0 ? (pos / space) * maxScroll() : 0;
   });
 })();
 </script>
