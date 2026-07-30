@@ -22,3 +22,13 @@ The homepage is the News page. News items are `<a class="news-item">` blocks in
 (`pqrlabmoses.wordpress.com`). Do **not** generate per-article HTML pages. To add
 one, copy a block and set its `href`, date, and headline. The list is a
 fixed-height scroll area showing about five items. See README.md.
+
+## Publications
+
+`publications.html` renders `assets/publications.json` client-side. That JSON is
+**generated** by `scripts/fetch_publications.py` (ORCID + Semantic Scholar +
+`scripts/manual_publications.json`, merged/de-duped) and refreshed weekly by
+`.github/workflows/update-publications.yml`. **Never hand-edit
+`assets/publications.json`** — it is overwritten each run. Durable manual
+additions go in `scripts/manual_publications.json` (or the ORCID record). No API
+keys are used; everything is public/keyless.

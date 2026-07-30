@@ -111,6 +111,37 @@ def from_orcid():
     return out
 
 
+# ---------- Manual additions (survive the weekly auto-refresh) ----------
+def from_manual():
+    """Hand-maintained list in scripts/manual_publications.json — for papers that
+    ORCID and Semantic Scholar don't have yet. These are always included."""
+    path = pathlib.Path(__file__).resolve().parent / "manual_publications.json"
+    if not path.exists():
+        return []
+    try:
+        items = json.loads(path.read_text())
+    except Exception as e:
+        print("manual_publications.json parse error (fix the JSON):", e)
+        return []
+    out = []
+    for p in items:
+        title = (p.get("title") or "").strip()
+        if not title:
+            continue
+        doi = p.get("doi")
+        out.append({
+            "title": title,
+            "year": p.get("year") or 0,
+            "venue": (p.get("venue") or "").strip(),
+            "authors": (p.get("authors") or "").strip(),
+            "doi": doi,
+            "url": p.get("url") or (f"https://doi.org/{doi}" if doi else
+                   f"https://scholar.google.com/scholar?q={urllib.parse.quote(title)}"),
+            "source": "manual",
+        })
+    return out
+
+
 def merge(*lists):
     merged = []
     by_doi = {}
@@ -150,15 +181,17 @@ def merge(*lists):
 
 
 def main():
+    manual = from_manual()
     s2 = from_semantic_scholar()
     orcid = from_orcid()
-    print(f"Semantic Scholar: {len(s2)}   ORCID: {len(orcid)}")
-    merged = merge(s2, orcid)
+    print(f"Manual: {len(manual)}   Semantic Scholar: {len(s2)}   ORCID: {len(orcid)}")
+    # manual first so hand-entered details win and are always kept
+    merged = merge(manual, s2, orcid)
     print(f"Merged unique: {len(merged)}")
     payload = {
         "updated": time.strftime("%Y-%m-%d", time.gmtime()),
         "count": len(merged),
-        "sources": {"semantic_scholar": len(s2), "orcid": len(orcid)},
+        "sources": {"manual": len(manual), "semantic_scholar": len(s2), "orcid": len(orcid)},
         "publications": merged,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
