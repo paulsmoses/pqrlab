@@ -662,7 +662,7 @@ img { max-width: 100%; display: block; }
   display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px;
 }
 
-.video-section { padding-top: 64px; margin-top: 8px; }
+.video-section { padding: 0; margin-top: 0; }
 .video-frame {
   position: relative;
   overflow: hidden;
