@@ -72,3 +72,16 @@ document.addEventListener('click', function (e) {
     }
   });
 })();
+
+/* De-spam email links: the address is split across two data attributes
+   so it never appears as plain text in the page source (basic scrapers
+   don't run JS). Built into a real mailto: link and readable text here. */
+(function () {
+  document.querySelectorAll('[data-email-user]').forEach(function (el) {
+    var user = el.getAttribute('data-email-user');
+    var domain = el.getAttribute('data-email-domain');
+    if (!user || !domain) return;
+    el.setAttribute('href', 'mailto:' + user + '@' + domain);
+    el.textContent = user + '@' + domain;
+  });
+})();
