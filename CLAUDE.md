@@ -18,10 +18,16 @@ GitHub Pages. Keep the repository under 1 GB.
 ## News
 
 The homepage is the News page. News items are `<a class="news-item">` blocks in
-`index.html`'s `.news-list`, each linking to the article on WordPress
-(`pqrlabmoses.wordpress.com`). Do **not** generate per-article HTML pages. To add
-one, copy a block and set its `href`, date, and headline. The list is a
-fixed-height scroll area showing about five items. See README.md.
+`index.html`'s `.news-list`, each linking to a full article page under `news/`
+(e.g. `news/lab-update.html`) — no longer to WordPress. The list is a
+fixed-height scroll area showing about five items. See README.md for how to
+add a new one, including the article page.
+
+Article pages in `news/` share the site header/footer with the rest of the
+site (paths are one level up, e.g. `../assets/styles.css`) and use a `.prose`
+div for the body. `assets/styles.css` has a "News article pages" section with
+the extra rules that style them (image spacing, galleries, media-text,
+blockquotes, etc.).
 
 ## Publications
 

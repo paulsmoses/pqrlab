@@ -8,6 +8,8 @@ of Oklahoma. Hosted on GitHub Pages.
 - `index.html` — landing page: hero banner + the News feed.
 - `about.html`, `faculty.html`, `members.html`, `research.html`,
   `publications.html`, `videos.html` — content pages.
+- `news/` — one HTML page per news article (e.g. `news/lab-update.html`),
+  linked from the homepage's News feed.
 - `assets/styles.css` — all styling.
 - `assets/app.js` — navigation, banner effect, member photos, sponsor scrollbar.
 - `assets/img/` — images (`people/`, `logos/`, `research/`, `sponsor/`).
@@ -25,25 +27,38 @@ browsers load the new version instead of a cached copy.
 
 ## Adding a news item
 
-News items live in `index.html` inside `<div class="news-list">`. Each item
-links out to the full article on WordPress — no new page is created.
+News items now live entirely in this repo: a link on the homepage plus an
+article page under `news/`. (Older articles were migrated from the lab's old
+WordPress blog; new ones follow the same pattern.)
 
-1. Copy one existing block:
+1. **Create the article page.** Copy any existing file in `news/` (e.g.
+   `news/lab-update.html`) to a new file named after the article, in
+   lowercase-with-hyphens, e.g. `news/students-win-best-paper-award.html`.
+2. In the new file, change three things:
+   - The `<title>` and the `<h1>` inside `.page-head` — the headline.
+   - The date in `<p class="news-post-meta">` (e.g. `Sep 4, 2026 · Dr. Paul
+     Moses`).
+   - The body inside `<div class="prose">` — replace the sample paragraphs
+     with the article text. Plain `<p>…</p>` paragraphs and `<img
+     src="..." alt="">` both work; images can point at any URL (they don't
+     need to live in this repo).
+3. **Link it from the homepage.** In `index.html`, inside
+   `<div class="news-list">`, copy one existing block:
 
    ```html
-   <a class="news-item" href="WORDPRESS-ARTICLE-URL" target="_blank" rel="noopener">
+   <a class="news-item" href="news/YOUR-FILE-NAME.html">
      <div class="news-date">Mon D<br>YYYY</div>
      <p>Headline text</p>
      <span class="news-arrow" aria-hidden="true">→</span>
    </a>
    ```
 
-2. Paste it at the top of the list (newest first).
-3. Change three things: the `href` (article URL), the date (keep the `<br>`),
-   and the headline between `<p>` and `</p>`.
-4. Save.
+4. Paste it at the top of the list (newest first). Change the `href` (to
+   your new file under `news/`), the date (keep the `<br>`), and the
+   headline between `<p>` and `</p>`.
+5. Save both files.
 
-The list shows about five items and scrolls for the rest.
+The homepage list shows about five items and scrolls for the rest.
 
 ---
 
