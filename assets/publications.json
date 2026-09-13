@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-06",
+ "updated": "2026-09-13",
  "count": 62,
  "sources": {
   "manual": 0,
@@ -290,7 +290,7 @@
    "title": "Effects of iron-core topology on inrush currents in three-phase multi-leg power transformers",
    "year": 2012,
    "venue": "IEEE Power & Energy Society General Meeting",
-   "authors": "P. Moses, M. Masoum, M. Moghbel",
+   "authors": "P. Moses, Mohammad A. S. Masoum, Moayed Moghbel",
    "doi": "10.1109/PESGM.2012.6344892",
    "url": "https://doi.org/10.1109/PESGM.2012.6344892",
    "source": "both"
@@ -308,7 +308,7 @@
    "title": "Three-Phase Asymmetric Transformer Aging Considering Voltage-Current Harmonic Interactions, Unbalanced Nonlinear Loading, Magnetic Couplings, and Hysteresis",
    "year": 2012,
    "venue": "IEEE transactions on energy conversion",
-   "authors": "P. Moses, M. Masoum",
+   "authors": "P. Moses, Mohammad A. S. Masoum",
    "doi": "10.1109/TEC.2011.2181949",
    "url": "https://doi.org/10.1109/TEC.2011.2181949",
    "source": "both"
@@ -515,7 +515,7 @@
    "title": "Modeling ferroresonance in asymmetric three-phase power transformers",
    "year": 2009,
    "venue": "Australasian Universities Power Engineering Conference",
-   "authors": "P. Moses, M. Masoum",
+   "authors": "P. Moses, Mohammad A. S. Masoum",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/aa893c32de5571146a2a99d898656637a66d3d14",
    "source": "semantic-scholar"
@@ -560,7 +560,7 @@
    "title": "Impact of Adjustable Speed PWM drives on Operation and Harmonic Losses of Nonlinear Three Phase Transformers",
    "year": 2007,
    "venue": "International Conference on Power Electronics and Drive Systems",
-   "authors": "M. Masoum, P. Moses, Amir S. Masoum",
+   "authors": "M. A. S. Masoum, P. Moses, Amir S. Masoum",
    "doi": "10.1109/PEDS.2007.4487757",
    "url": "https://doi.org/10.1109/PEDS.2007.4487757",
    "source": "both"
