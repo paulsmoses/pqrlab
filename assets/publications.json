@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27",
+ "updated": "2026-10-04",
  "count": 62,
  "sources": {
   "manual": 0,
@@ -317,7 +317,7 @@
    "title": "Distribution transformer loading in unbalanced three-phase residential networks with random charging of plug-in electric vehicles",
    "year": 2012,
    "venue": "Australasian Universities Power Engineering Conference",
-   "authors": "M. Moghbel, M. S. Masoum, Farhad Shahnia, P. Moses",
+   "authors": "Moayed Moghbel, M. S. Masoum, Farhad Shahnia, P. Moses",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/7901d7981ee725ffa3d11fa2fae48daa8d728557",
    "source": "semantic-scholar"
