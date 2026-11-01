@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-25",
- "count": 63,
+ "updated": "2026-11-01",
+ "count": 64,
  "sources": {
   "manual": 0,
-  "semantic_scholar": 57,
+  "semantic_scholar": 58,
   "orcid": 40
  },
  "publications": [
@@ -110,7 +110,7 @@
    "title": "Multiparameter Stability Analysis of Systems with Induction Motor Loads, Weak Interconnections and Series Compensation",
    "year": 2021,
    "venue": "WSEAS Transactions on Circuits and Systems",
-   "authors": "Joathan Devadason, P. Moses, M. Masoum",
+   "authors": "J. Devadason, P. Moses, M. Masoum",
    "doi": "10.37394/23201.2021.20.16",
    "url": "https://doi.org/10.37394/23201.2021.20.16",
    "source": "both"
@@ -573,6 +573,15 @@
    "doi": "10.1109/PEDS.2007.4487757",
    "url": "https://doi.org/10.1109/PEDS.2007.4487757",
    "source": "both"
+  },
+  {
+   "title": "MONITORING AND EDUCATION HELP SEISMIC CREW PROTECT ENVIRONMENT IN TRANSITION-ZONE SURVEY",
+   "year": 1999,
+   "venue": "",
+   "authors": "A. Perkins, Mark H. Gagliano, P. Moses",
+   "doi": "10.1190/1.1438186",
+   "url": "https://doi.org/10.1190/1.1438186",
+   "source": "semantic-scholar"
   }
  ]
 }
