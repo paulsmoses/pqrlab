@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-15",
  "count": 64,
  "sources": {
   "manual": 0,
@@ -209,7 +209,7 @@
    "title": "Electric Circuit Foundation of Structural Analysis for Power Systems from a Network Perspective",
    "year": 2018,
    "venue": "Mediterranean Conference on Power Generation, Transmission, Distribution and Energy Conversion (MEDPOWER 2018)",
-   "authors": "Dhruv Sharma, G. Ji, Wang-Hao Fei, Di Wu, P. Moses, John N. Jiang",
+   "authors": "D. Sharma, P. Moses, J.-N. Jiang",
    "doi": "10.1049/cp.2018.1916",
    "url": "https://doi.org/10.1049/cp.2018.1916",
    "source": "both"
@@ -335,7 +335,7 @@
    "title": "Impact of rooftop PV generation on distribution transformer and voltage profile of residential and commercial networks",
    "year": 2012,
    "venue": "IEEE PES Innovative Smart Grid Technologies Conference",
-   "authors": "A. S. Masoum, P. Moses, M. S. Masoum, A. Abu-Siada",
+   "authors": "A. S. Masoum, P. Moses, M. S. Masoum, A. Abu-siada",
    "doi": "10.1109/ISGT.2012.6175693",
    "url": "https://doi.org/10.1109/ISGT.2012.6175693",
    "source": "both"
@@ -425,7 +425,7 @@
    "title": "Smart load management of plug-in electric vehicles in distribution and residential networks with charging stations for peak shaving and loss minimisation considering voltage regulation",
    "year": 2011,
    "venue": "IET Generation, Transmission & Distribution",
-   "authors": "Amir S. Masoum, Sara Deilami, P. Moses, M. S. Masoum, A. Abu-Siada",
+   "authors": "Amir S. Masoum, Sara Deilami, P. Moses, M. S. Masoum, A. Abu-siada",
    "doi": "10.1049/IET-GTD.2010.0574",
    "url": "https://doi.org/10.1049/IET-GTD.2010.0574",
    "source": "both"
@@ -470,7 +470,7 @@
    "title": "Impact of plug-in electrical vehicles on voltage profile and losses of residential system",
    "year": 2010,
    "venue": "Australasian Universities Power Engineering Conference",
-   "authors": "Amir S. Masoum, Sara Deilami, P. Moses, A. Abu-Siada",
+   "authors": "Amir S. Masoum, Sara Deilami, P. Moses, A. Abu-siada",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/6ac98f88cd0323a2257235e521358b7cb9f1725c",
    "source": "semantic-scholar"
@@ -497,7 +497,7 @@
    "title": "Impact of voltage sags on three-phase power transformers",
    "year": 2010,
    "venue": "Australasian Universities Power Engineering Conference",
-   "authors": "A. S. Masoum, P. Moses, A. Abu-Siada",
+   "authors": "A. S. Masoum, P. Moses, A. Abu-siada",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/add415042cd119d7933411f308359f7a6f921a21",
    "source": "semantic-scholar"
@@ -515,7 +515,7 @@
    "title": "Impacts of battery charging rates of Plug-in Electric Vehicle on smart grid distribution systems",
    "year": 2010,
    "venue": "IEEE PES Innovative Smart Grid Technologies Conference Europe",
-   "authors": "Amir S. Masoum, Sara Deilami, P. Moses, A. Abu-Siada",
+   "authors": "Amir S. Masoum, Sara Deilami, P. Moses, A. Abu-siada",
    "doi": "10.1109/ISGTEUROPE.2010.5638981",
    "url": "https://doi.org/10.1109/ISGTEUROPE.2010.5638981",
    "source": "both"
