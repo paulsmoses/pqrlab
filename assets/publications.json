@@ -1,71 +1,170 @@
 {
- "updated": "2026-11-15",
- "count": 64,
+ "updated": "2026-11-22",
+ "count": 69,
  "sources": {
   "manual": 0,
-  "semantic_scholar": 58,
+  "semantic_scholar": 69,
   "orcid": 40
  },
  "publications": [
   {
    "title": "Integrating distance relay blinding constraints into security-constrained economic dispatch via protection shift factors",
    "year": 2027,
-   "venue": "Electric Power Systems Research",
-   "authors": "",
+   "venue": "Electric power systems research",
+   "authors": "Wang-Hao Fei, P. Moses",
    "doi": "10.1016/j.epsr.2026.114345",
    "url": "https://doi.org/10.1016/j.epsr.2026.114345",
-   "source": "orcid"
+   "source": "both"
+  },
+  {
+   "title": "Distribution System Impacts of Dynamic Wireless EV Charging Under Normal and Stressed Operating Conditions",
+   "year": 2026,
+   "venue": "2026 IEEE 104th Vehicular Technology Conference (VTC2026-Fall)",
+   "authors": "Vinushika Panchalogaranjan, P. Moses",
+   "doi": "10.1109/VTC2026-Fall68024.2026.11758433",
+   "url": "https://doi.org/10.1109/VTC2026-Fall68024.2026.11758433",
+   "source": "semantic-scholar"
+  },
+  {
+   "title": "GIC Modeling for a Three-Phase, Three-Limb Transformer: Line-Resistance Sensitivity",
+   "year": 2026,
+   "venue": "2026 Intermountain Engineering, Technology and Computing (IETC)",
+   "authors": "Julien Aganze, P. Moses",
+   "doi": "10.1109/IETC69527.2026.11568603",
+   "url": "https://doi.org/10.1109/IETC69527.2026.11568603",
+   "source": "semantic-scholar"
+  },
+  {
+   "title": "Control of a Motor-Dynamometer Test Bench for HVAC Load Emulation in Grid Flexibility Research",
+   "year": 2026,
+   "venue": "2026 IEEE Texas Power and Energy Conference (TPEC)",
+   "authors": "Srijana Shrestha, Chibuoke Eneh, P. Moses, Jie Cai",
+   "doi": "10.1109/TPEC67884.2026.11513071",
+   "url": "https://doi.org/10.1109/TPEC67884.2026.11513071",
+   "source": "semantic-scholar"
   },
   {
    "title": "Resilience assessment of electrical distribution networks subject to wind and self-induced fire hazards",
    "year": 2026,
    "venue": "Reliability Engineering & System Safety",
-   "authors": "",
+   "authors": "R. Campos, P. Harvey, H. I. Imran Kays, Vinushika Panchalogaranjan, P. Moses, A. Sadri",
    "doi": "10.1016/j.ress.2026.112411",
    "url": "https://doi.org/10.1016/j.ress.2026.112411",
-   "source": "orcid"
+   "source": "both"
+  },
+  {
+   "title": "State of Charge Estimation of EV Secondary Battery Pack Using Hybrid Hedge Feedforward Feedback‐Based Gated Recurrent Unit to Extend Lifespan",
+   "year": 2026,
+   "venue": "Battery Energy",
+   "authors": "Md Ohirul Qays, Iftekhar Ahmad, D. Habibi, M. Masoum, P. Moses",
+   "doi": "10.1002/bte2.70073",
+   "url": "https://doi.org/10.1002/bte2.70073",
+   "source": "semantic-scholar"
+  },
+  {
+   "title": "A Review of Aging Characteristics and Lifespan Estimation of Stator Winding Insulation",
+   "year": 2026,
+   "venue": "2026 Intermountain Engineering, Technology and Computing (IETC)",
+   "authors": "Srijana Shrestha, P. Moses",
+   "doi": "10.1109/IETC69527.2026.11568631",
+   "url": "https://doi.org/10.1109/IETC69527.2026.11568631",
+   "source": "semantic-scholar"
   },
   {
    "title": "Fire hazards induced by power distribution networks: Modeling and Mapping",
    "year": 2026,
    "venue": "International Journal of Disaster Risk Reduction",
-   "authors": "",
+   "authors": "R. Campos, P. Harvey, P. Moses",
    "doi": "10.1016/j.ijdrr.2025.105939",
    "url": "https://doi.org/10.1016/j.ijdrr.2025.105939",
-   "source": "orcid"
+   "source": "both"
+  },
+  {
+   "title": "Long-term techno-economic analysis considering system strength and reliability shortfalls of electric vehicle-to-grid-systems installations integrated with renewable energy generators using hybrid GRU-classical optimization method",
+   "year": 2025,
+   "venue": "Sustainable Energy Technologies and Assessments",
+   "authors": "Md Ohirul Qays, Iftekhar Ahmad, D. Habibi, P. Moses",
+   "doi": "10.1016/j.seta.2025.104294",
+   "url": "https://doi.org/10.1016/j.seta.2025.104294",
+   "source": "semantic-scholar"
+  },
+  {
+   "title": "An Experimental Wind Farm Emulator with a Dual Variable-Speed Drive Configuration",
+   "year": 2025,
+   "venue": "2025 Intermountain Engineering, Technology and Computing (IETC)",
+   "authors": "Noah Gruman, P. Moses, C. Jauch",
+   "doi": "10.1109/IETC64455.2025.11039473",
+   "url": "https://doi.org/10.1109/IETC64455.2025.11039473",
+   "source": "semantic-scholar"
+  },
+  {
+   "title": "Steady-State Fault Analysis of Distribution System with PV Plants and EV Charging Stations",
+   "year": 2024,
+   "venue": "2024 7th International Conference on Electrical Engineering and Green Energy (CEEGE)",
+   "authors": "Vinushika Panchalogaranjan, P. Moses",
+   "doi": "10.1109/CEEGE62093.2024.10744185",
+   "url": "https://doi.org/10.1109/CEEGE62093.2024.10744185",
+   "source": "semantic-scholar"
+  },
+  {
+   "title": "Application of a Squirrel Cage Induction Machine as a Dynamometer for Motor Heat-run Tests",
+   "year": 2024,
+   "venue": "IEEE ANDESCON",
+   "authors": "Srijana Shrestha, P. Moses, J. Cai",
+   "doi": "10.1109/ANDESCON61840.2024.10755786",
+   "url": "https://doi.org/10.1109/ANDESCON61840.2024.10755786",
+   "source": "semantic-scholar"
+  },
+  {
+   "title": "The February 2021 U.S. Southwest Power Crisis",
+   "year": 2023,
+   "venue": "Social Science Research Network",
+   "authors": "S. Shrestha, Vinushika Panchalogaranjan, P. Moses",
+   "doi": "10.2139/ssrn.4156546",
+   "url": "https://doi.org/10.2139/ssrn.4156546",
+   "source": "both"
   },
   {
    "title": "Case Study of a Severe Ice Storm Impacting Distribution Networks in Oklahoma",
    "year": 2023,
    "venue": "IEEE Transactions on Reliability",
-   "authors": "",
+   "authors": "Vinushika Panchalogaranjan, P. Moses, Nick Shumaker",
    "doi": "10.1109/TR.2023.3252592",
    "url": "https://doi.org/10.1109/TR.2023.3252592",
-   "source": "orcid"
+   "source": "both"
   },
   {
-   "title": "The February 2021 U.S. Southwest power crisis",
+   "title": "Utilizing PSO Technique for Locational-Dependent Feeder PV Hosting Capacity Evaluation",
    "year": 2023,
-   "venue": "Electric Power Systems Research",
-   "authors": "",
-   "doi": "10.1016/j.epsr.2023.109124",
-   "url": "https://doi.org/10.1016/j.epsr.2023.109124",
-   "source": "orcid"
+   "venue": "Photovoltaic Specialists Conference",
+   "authors": "Vinushika Panchalogaranjan, P. Moses",
+   "doi": "10.1109/PVSC48320.2023.10360041",
+   "url": "https://doi.org/10.1109/PVSC48320.2023.10360041",
+   "source": "semantic-scholar"
+  },
+  {
+   "title": "Laboratory Tests of Distribution Feeder Protection Response with Inverter-Based Resources",
+   "year": 2023,
+   "venue": "International Conference on Industrial and Information Systems",
+   "authors": "Noah Gruman, P. Moses",
+   "doi": "10.1109/ICIIS58898.2023.10253608",
+   "url": "https://doi.org/10.1109/ICIIS58898.2023.10253608",
+   "source": "semantic-scholar"
   },
   {
    "title": "Resilience assessment and enhancement evaluation of power distribution systems subjected to ice storms",
    "year": 2023,
    "venue": "Reliability Engineering & System Safety",
-   "authors": "",
+   "authors": "G. Hou, K. Muraleetharan, Vinushika Panchalogaranjan, P. Moses, A. Javid, Hussein Al-Dakheeli, R. Bulut, R. Campos, P. Harvey, G. Miller, Kirby Boldes, M. Narayanan",
    "doi": "10.1016/j.ress.2022.108964",
    "url": "https://doi.org/10.1016/j.ress.2022.108964",
-   "source": "orcid"
+   "source": "both"
   },
   {
    "title": "Fault Protection Considerations for MVDC Shipboard Power Systems Operating with Pulsed-Power Loads",
    "year": 2021,
    "venue": "WSEAS Transactions on power systems",
-   "authors": "Marounfa Djibo, P. Moses, Isaac L. Flory",
+   "authors": "Marounfa Djibo, P. Moses, Ike Flory",
    "doi": "10.37394/232016.2021.16.14",
    "url": "https://doi.org/10.37394/232016.2021.16.14",
    "source": "semantic-scholar"
@@ -110,7 +209,7 @@
    "title": "Multiparameter Stability Analysis of Systems with Induction Motor Loads, Weak Interconnections and Series Compensation",
    "year": 2021,
    "venue": "WSEAS Transactions on Circuits and Systems",
-   "authors": "J. Devadason, P. Moses, M. Masoum",
+   "authors": "Joathan Devadason, P. Moses, M. Masoum",
    "doi": "10.37394/23201.2021.20.16",
    "url": "https://doi.org/10.37394/23201.2021.20.16",
    "source": "both"
@@ -233,55 +332,10 @@
    "source": "semantic-scholar"
   },
   {
-   "title": "Steady-state performance optimization of a 500 kHz photovoltaic module emulator",
-   "year": 2016,
-   "venue": "Photovoltaic Specialists Conference",
-   "authors": "Y. Erkaya, P. Moses, Isaac L. Flory, S. Marsillac",
-   "doi": "10.1109/PVSC.2016.7750257",
-   "url": "https://doi.org/10.1109/PVSC.2016.7750257",
-   "source": "semantic-scholar"
-  },
-  {
-   "title": "Developing a Distance Learning Curriculum for Marine Engineering Education",
-   "year": 2016,
-   "venue": "",
-   "authors": "J. Michaeli, P. Moses, Gene Hou",
-   "doi": "10.18260/p.26722",
-   "url": "https://doi.org/10.18260/p.26722",
-   "source": "semantic-scholar"
-  },
-  {
-   "title": "On-site characterization of PV modules using a portable, MOSFET-based capacitive load",
-   "year": 2016,
-   "venue": "Photovoltaic Specialists Conference",
-   "authors": "Y. Erkaya, P. Moses, S. Marsillac",
-   "doi": "10.1109/PVSC.2016.7750240",
-   "url": "https://doi.org/10.1109/PVSC.2016.7750240",
-   "source": "semantic-scholar"
-  },
-  {
-   "title": "Development of a solar photovoltaic module emulator",
-   "year": 2015,
-   "venue": "Photovoltaic Specialists Conference",
-   "authors": "Y. Erkaya, P. Moses, Isaac L. Flory, S. Marsillac",
-   "doi": "10.1109/PVSC.2015.7356282",
-   "url": "https://doi.org/10.1109/PVSC.2015.7356282",
-   "source": "semantic-scholar"
-  },
-  {
-   "title": "Impacts of market behavior on distributed energy: a multi-disciplinary, hybridized modeling and simulation approach",
-   "year": 2015,
-   "venue": "Spring Simulation Multiconference",
-   "authors": "Solomon J. Sherfey, Andrew J. Collins, P. Moses, S. Marsillac",
-   "doi": null,
-   "url": "https://www.semanticscholar.org/paper/6aa14aac12a3b2923a0a483d3eb24245e72512f5",
-   "source": "semantic-scholar"
-  },
-  {
    "title": "Digital Implementation of a Fault Emulator for Transient Study of Power Transformers Used in Grid Connection of Wind Farms",
    "year": 2014,
    "venue": "IEEE Transactions on Sustainable Energy",
-   "authors": "Mohsen Mesbah, P. Moses, S. Islam, M. Masoum",
+   "authors": "M. Mesbah, P. Moses, S. Islam, M. Masoum",
    "doi": "10.1109/TSTE.2013.2272093",
    "url": "https://doi.org/10.1109/TSTE.2013.2272093",
    "source": "both"
@@ -299,7 +353,7 @@
    "title": "Effects of iron-core topology on inrush currents in three-phase multi-leg power transformers",
    "year": 2012,
    "venue": "IEEE Power & Energy Society General Meeting",
-   "authors": "P. Moses, M. S. Masoum, Moayed Moghbel",
+   "authors": "P. Moses, M. Masoum, Moayed Moghbel",
    "doi": "10.1109/PESGM.2012.6344892",
    "url": "https://doi.org/10.1109/PESGM.2012.6344892",
    "source": "both"
@@ -308,7 +362,7 @@
    "title": "Overloading of distribution transformers in smart grid due to uncoordinated charging of plug-In electric vehicles",
    "year": 2012,
    "venue": "IEEE PES Innovative Smart Grid Technologies Conference",
-   "authors": "P. Moses, M. S. Masoum, S. Hajforoosh",
+   "authors": "P. Moses, M. Masoum, Somayeh Hajforoosh",
    "doi": "10.1109/ISGT.2012.6175689",
    "url": "https://doi.org/10.1109/ISGT.2012.6175689",
    "source": "both"
@@ -317,7 +371,7 @@
    "title": "Three-Phase Asymmetric Transformer Aging Considering Voltage-Current Harmonic Interactions, Unbalanced Nonlinear Loading, Magnetic Couplings, and Hysteresis",
    "year": 2012,
    "venue": "IEEE transactions on energy conversion",
-   "authors": "P. Moses, M. S. Masoum",
+   "authors": "P. Moses, M. Masoum",
    "doi": "10.1109/TEC.2011.2181949",
    "url": "https://doi.org/10.1109/TEC.2011.2181949",
    "source": "both"
@@ -326,7 +380,7 @@
    "title": "Distribution transformer loading in unbalanced three-phase residential networks with random charging of plug-in electric vehicles",
    "year": 2012,
    "venue": "Australasian Universities Power Engineering Conference",
-   "authors": "Moayed Moghbel, M. S. Masoum, Farhad Shahnia, P. Moses",
+   "authors": "Moayed Moghbel, M. Masoum, Farhad Shahnia, P. Moses",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/7901d7981ee725ffa3d11fa2fae48daa8d728557",
    "source": "semantic-scholar"
@@ -335,7 +389,7 @@
    "title": "Impact of rooftop PV generation on distribution transformer and voltage profile of residential and commercial networks",
    "year": 2012,
    "venue": "IEEE PES Innovative Smart Grid Technologies Conference",
-   "authors": "A. S. Masoum, P. Moses, M. S. Masoum, A. Abu-siada",
+   "authors": "Ali S. Masoum, P. Moses, M. Masoum, A. Abu-siada",
    "doi": "10.1109/ISGT.2012.6175693",
    "url": "https://doi.org/10.1109/ISGT.2012.6175693",
    "source": "both"
@@ -344,7 +398,7 @@
    "title": "Distribution transformer stress in smart grid with coordinated charging of Plug-In Electric Vehicles",
    "year": 2012,
    "venue": "IEEE PES Innovative Smart Grid Technologies Conference",
-   "authors": "M. S. Masoum, P. Moses, S. Hajforoosh",
+   "authors": "M. Masoum, P. Moses, Somayeh Hajforoosh",
    "doi": "10.1109/ISGT.2012.6175685",
    "url": "https://doi.org/10.1109/ISGT.2012.6175685",
    "source": "both"
@@ -353,7 +407,7 @@
    "title": "Modeling and analysis of the suppression of ferroresonance in nonlinear three-phase three-leg transformers",
    "year": 2011,
    "venue": "IEEE Power & Energy Society General Meeting",
-   "authors": "P. Moses, M. S. Masoum",
+   "authors": "P. Moses, M. Masoum",
    "doi": "10.1109/PES.2011.6039293",
    "url": "https://doi.org/10.1109/PES.2011.6039293",
    "source": "both"
@@ -362,7 +416,7 @@
    "title": "Operation of three-phase three-leg power transformers subject to voltage swell",
    "year": 2011,
    "venue": "International Conference on Electrical Power Quality and Utilisation",
-   "authors": "A. S. Masoum, P. Moses, M. S. Masoum",
+   "authors": "Ali S. Masoum, P. Moses, M. Masoum",
    "doi": "10.1109/EPQU.2011.6128964",
    "url": "https://doi.org/10.1109/EPQU.2011.6128964",
    "source": "both"
@@ -371,7 +425,7 @@
    "title": "Voltage analysis for placement of DG in unbalanced distribution networks",
    "year": 2011,
    "venue": "International Conference on Electrical Power Quality and Utilisation",
-   "authors": "P. Juanuwattanakul, M. S. Masoum, P. Moses",
+   "authors": "P. Juanuwattanakul, M. Masoum, P. Moses",
    "doi": "10.1109/EPQU.2011.6128868",
    "url": "https://doi.org/10.1109/EPQU.2011.6128868",
    "source": "both"
@@ -380,7 +434,7 @@
    "title": "Impacts of Hysteresis and Magnetic Couplings on the Stability Domain of Ferroresonance in Asymmetric Three-Phase Three-Leg Transformers",
    "year": 2011,
    "venue": "IEEE transactions on energy conversion",
-   "authors": "P. Moses, M. S. Masoum, H. Toliyat",
+   "authors": "P. Moses, M. Masoum, H. Toliyat",
    "doi": "10.1109/TEC.2010.2088400",
    "url": "https://doi.org/10.1109/TEC.2010.2088400",
    "source": "both"
@@ -389,7 +443,7 @@
    "title": "Real-Time Coordination of Plug-In Electric Vehicle Charging in Smart Grids to Minimize Power Losses and Improve Voltage Profile",
    "year": 2011,
    "venue": "IEEE Transactions on Smart Grid",
-   "authors": "Sara Deilami, Amir S. Masoum, P. Moses, M. S. Masoum",
+   "authors": "Sara Deilami, A. S. Masoum, P. Moses, M. Masoum",
    "doi": "10.1109/TSG.2011.2159816",
    "url": "https://doi.org/10.1109/TSG.2011.2159816",
    "source": "both"
@@ -398,7 +452,7 @@
    "title": "Harmonic losses and stresses of nonlinear three-phase distribution transformers serving Plug-In Electric Vehicle charging stations",
    "year": 2011,
    "venue": "IEEE PES Innovative Smart Grid Technologies Conference",
-   "authors": "P. Moses, M. S. Masoum, K. Smedley",
+   "authors": "P. Moses, M. Masoum, K. Smedley",
    "doi": "10.1109/ISGT.2011.5759145",
    "url": "https://doi.org/10.1109/ISGT.2011.5759145",
    "source": "both"
@@ -407,7 +461,7 @@
    "title": "Distortions in three-phase transformer magnetizing currents with nonsinusoidal conditions considering magnetic hysteresis and leg-flux coupling effects",
    "year": 2011,
    "venue": "Australasian Universities Power Engineering Conference",
-   "authors": "P. Moses, M. S. Masoum",
+   "authors": "P. Moses, M. Masoum",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/ac0f740d712a02c3910331ba8c10388162167575",
    "source": "semantic-scholar"
@@ -416,7 +470,7 @@
    "title": "Distribution transformer losses and performance in smart grids with residential Plug-In Electric Vehicles",
    "year": 2011,
    "venue": "IEEE PES Innovative Smart Grid Technologies Conference",
-   "authors": "M. S. Masoum, P. Moses, K. Smedley",
+   "authors": "M. Masoum, P. Moses, K. Smedley",
    "doi": "10.1109/ISGT.2011.5759174",
    "url": "https://doi.org/10.1109/ISGT.2011.5759174",
    "source": "both"
@@ -425,7 +479,7 @@
    "title": "Smart load management of plug-in electric vehicles in distribution and residential networks with charging stations for peak shaving and loss minimisation considering voltage regulation",
    "year": 2011,
    "venue": "IET Generation, Transmission & Distribution",
-   "authors": "Amir S. Masoum, Sara Deilami, P. Moses, M. S. Masoum, A. Abu-siada",
+   "authors": "A. S. Masoum, Sara Deilami, P. Moses, M. Masoum, A. Abu-siada",
    "doi": "10.1049/IET-GTD.2010.0574",
    "url": "https://doi.org/10.1049/IET-GTD.2010.0574",
    "source": "both"
@@ -434,7 +488,7 @@
    "title": "Voltage profile and THD distortion of residential network with high penetration of Plug-in Electrical Vehicles",
    "year": 2010,
    "venue": "IEEE PES Innovative Smart Grid Technologies Conference Europe",
-   "authors": "Sara Deilami, Amir S. Masoum, P. Moses, M. S. Masoum",
+   "authors": "Sara Deilami, A. S. Masoum, P. Moses, M. Masoum",
    "doi": "10.1109/ISGTEUROPE.2010.5638979",
    "url": "https://doi.org/10.1109/ISGTEUROPE.2010.5638979",
    "source": "both"
@@ -443,7 +497,7 @@
    "title": "Experimental and simulation analysis of ferroresonance in single-phase transformers considering magnetic hysteresis effects",
    "year": 2010,
    "venue": "IEEE PES General Meeting",
-   "authors": "P. Moses, M. S. Masoum",
+   "authors": "P. Moses, M. Masoum",
    "doi": "10.1109/PES.2010.5589666",
    "url": "https://doi.org/10.1109/PES.2010.5589666",
    "source": "both"
@@ -452,7 +506,7 @@
    "title": "Load management in smart grids considering harmonic distortion and transformer derating",
    "year": 2010,
    "venue": "IEEE PES Innovative Smart Grid Technologies Conference",
-   "authors": "M. S. Masoum, P. Moses, Sara Deilami",
+   "authors": "M. Masoum, P. Moses, Sara Deilami",
    "doi": "10.1109/ISGT.2010.5434738",
    "url": "https://doi.org/10.1109/ISGT.2010.5434738",
    "source": "both"
@@ -461,7 +515,7 @@
    "title": "Impact of balanced and unbalanced direct current bias on harmonic distortion generated by asymmetric three-phase three-leg transformers",
    "year": 2010,
    "venue": "IET Electric Power Applications",
-   "authors": "M. S. Masoum, P. Moses",
+   "authors": "M. Masoum, P. Moses",
    "doi": "10.1049/IET-EPA.2009.0311",
    "url": "https://doi.org/10.1049/IET-EPA.2009.0311",
    "source": "both"
@@ -470,7 +524,7 @@
    "title": "Impact of plug-in electrical vehicles on voltage profile and losses of residential system",
    "year": 2010,
    "venue": "Australasian Universities Power Engineering Conference",
-   "authors": "Amir S. Masoum, Sara Deilami, P. Moses, A. Abu-siada",
+   "authors": "A. S. Masoum, Sara Deilami, P. Moses, A. Abu-siada",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/6ac98f88cd0323a2257235e521358b7cb9f1725c",
    "source": "semantic-scholar"
@@ -479,7 +533,7 @@
    "title": "Power quality of smart grids with Plug-in Electric Vehicles considering battery charging profile",
    "year": 2010,
    "venue": "IEEE PES Innovative Smart Grid Technologies Conference Europe",
-   "authors": "P. Moses, Sara Deilami, Amir S. Masoum, M. S. Masoum",
+   "authors": "P. Moses, Sara Deilami, A. S. Masoum, M. Masoum",
    "doi": "10.1109/ISGTEUROPE.2010.5638983",
    "url": "https://doi.org/10.1109/ISGTEUROPE.2010.5638983",
    "source": "both"
@@ -488,7 +542,7 @@
    "title": "Dynamic Modeling of Three-Phase Asymmetric Power Transformers With Magnetic Hysteresis: No-Load and Inrush Conditions",
    "year": 2010,
    "venue": "IEEE transactions on energy conversion",
-   "authors": "P. Moses, M. S. Masoum, H. Toliyat",
+   "authors": "P. Moses, M. Masoum, H. Toliyat",
    "doi": "10.1109/TEC.2010.2065231",
    "url": "https://doi.org/10.1109/TEC.2010.2065231",
    "source": "both"
@@ -497,7 +551,7 @@
    "title": "Impact of voltage sags on three-phase power transformers",
    "year": 2010,
    "venue": "Australasian Universities Power Engineering Conference",
-   "authors": "A. S. Masoum, P. Moses, A. Abu-siada",
+   "authors": "Ali S. Masoum, P. Moses, A. Abu-siada",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/add415042cd119d7933411f308359f7a6f921a21",
    "source": "semantic-scholar"
@@ -506,7 +560,7 @@
    "title": "Sensitivity of ferroresonance simulations to model parameters and initial conditions",
    "year": 2010,
    "venue": "Australasian Universities Power Engineering Conference",
-   "authors": "P. Moses, M. S. Masoum",
+   "authors": "P. Moses, M. Masoum",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/eaef589a63d52ef5cdef9515cf6e2ab5c734ae56",
    "source": "semantic-scholar"
@@ -515,7 +569,7 @@
    "title": "Impacts of battery charging rates of Plug-in Electric Vehicle on smart grid distribution systems",
    "year": 2010,
    "venue": "IEEE PES Innovative Smart Grid Technologies Conference Europe",
-   "authors": "Amir S. Masoum, Sara Deilami, P. Moses, A. Abu-siada",
+   "authors": "A. S. Masoum, Sara Deilami, P. Moses, A. Abu-siada",
    "doi": "10.1109/ISGTEUROPE.2010.5638981",
    "url": "https://doi.org/10.1109/ISGTEUROPE.2010.5638981",
    "source": "both"
@@ -524,7 +578,7 @@
    "title": "Modeling ferroresonance in asymmetric three-phase power transformers",
    "year": 2009,
    "venue": "Australasian Universities Power Engineering Conference",
-   "authors": "P. Moses, M. S. Masoum",
+   "authors": "P. Moses, M. Masoum",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/aa893c32de5571146a2a99d898656637a66d3d14",
    "source": "semantic-scholar"
@@ -533,7 +587,7 @@
    "title": "Modeling subharmonic and chaotic ferroresonance with tr ansformer core model including magnetic hysteresis effects",
    "year": 2009,
    "venue": "",
-   "authors": "P. Moses, M. S. Masoum",
+   "authors": "P. Moses, M. Masoum",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/b20861ee066dcb6678ddc3c7ddf62aad1f930d52",
    "source": "semantic-scholar"
@@ -542,7 +596,7 @@
    "title": "Modeling ferroresonance in single-phase transformer cores with hysteresis",
    "year": 2009,
    "venue": "",
-   "authors": "P. Moses, M. S. Masoum",
+   "authors": "P. Moses, M. Masoum",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/d1d7d2abc09e6c6fdde0b07c13696bf2428f4cff",
    "source": "semantic-scholar"
@@ -551,7 +605,7 @@
    "title": "Influence of Geomagnetically Induced Currents on three-phase power transformers",
    "year": 2008,
    "venue": "Australasian Universities Power Engineering Conference",
-   "authors": "M. S. Masoum, P. Moses",
+   "authors": "M. Masoum, P. Moses",
    "doi": null,
    "url": "https://www.semanticscholar.org/paper/4eacb1cfde7618e1ab3006ab5c7a284d55a1b156",
    "source": "semantic-scholar"
@@ -560,7 +614,7 @@
    "title": "Derating of Asymmetric Three-Phase Transformers Serving Unbalanced Nonlinear Loads",
    "year": 2008,
    "venue": "IEEE Transactions on Power Delivery",
-   "authors": "M. S. Masoum, P. Moses, A. S. Masoum",
+   "authors": "M. Masoum, P. Moses, Ali S. Masoum",
    "doi": "10.1109/TPWRD.2008.923057",
    "url": "https://doi.org/10.1109/TPWRD.2008.923057",
    "source": "both"
@@ -569,19 +623,10 @@
    "title": "Impact of Adjustable Speed PWM drives on Operation and Harmonic Losses of Nonlinear Three Phase Transformers",
    "year": 2007,
    "venue": "International Conference on Power Electronics and Drive Systems",
-   "authors": "M. S. Masoum, P. Moses, Amir S. Masoum",
+   "authors": "M. Masoum, P. Moses, A. S. Masoum",
    "doi": "10.1109/PEDS.2007.4487757",
    "url": "https://doi.org/10.1109/PEDS.2007.4487757",
    "source": "both"
-  },
-  {
-   "title": "MONITORING AND EDUCATION HELP SEISMIC CREW PROTECT ENVIRONMENT IN TRANSITION-ZONE SURVEY",
-   "year": 1999,
-   "venue": "",
-   "authors": "A. Perkins, Mark H. Gagliano, P. Moses",
-   "doi": "10.1190/1.1438186",
-   "url": "https://doi.org/10.1190/1.1438186",
-   "source": "semantic-scholar"
   }
  ]
 }
